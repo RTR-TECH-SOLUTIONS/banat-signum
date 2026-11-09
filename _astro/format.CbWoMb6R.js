@@ -1,0 +1,1 @@
+var e=`/banat-signum`.replace(/\/$/,``),t=t=>t.startsWith(`/`)&&!t.startsWith(`//`)?`${e}${t}`:t,n=new Intl.NumberFormat(`ro-RO`,{minimumFractionDigits:2,maximumFractionDigits:2}),r=e=>`${n.format(e)} lei`,i=(e,t)=>t&&t>e?Math.round((1-e/t)*100):0;export{i as n,t as r,r as t};
